@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/popbg"
+        android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_above="@+id/inputCode"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Enter Transaction Code:"
+            android:textAlignment="center"
+            android:textColor="#434447"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/retreiveR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/inputCode"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="31dp"
+            android:text="Retrieve Receipt" />
+
+        <EditText
+            android:id="@+id/inputCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:fontFamily="sans-serif-smallcaps"
+            android:hint="Enter here"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="#ccd5e5"
+            android:textIsSelectable="false" />
+
+</RelativeLayout>
+

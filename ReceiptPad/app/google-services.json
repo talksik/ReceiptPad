@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "337559407579",
+    "firebase_url": "https://neatreceipts-5bccc.firebaseio.com",
+    "project_id": "neatreceipts-5bccc",
+    "storage_bucket": "neatreceipts-5bccc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337559407579:android:be54a440b659d36d",
+        "android_client_info": {
+          "package_name": "com.example.ram2.myreceipts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "337559407579-463ut2lbftvnpki1gbt78rp6phihse1b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ram2.myreceipts",
+            "certificate_hash": "be5d0120fb65aecf99235c500c02a3ca9ee9f87b"
+          }
+        },
+        {
+          "client_id": "337559407579-gdvrcnq62mh0lfkefm16fq5dqa2gpj1n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj7IkwjUgbC2tOoq7SyG4qyhSBsI52RHM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "337559407579-gdvrcnq62mh0lfkefm16fq5dqa2gpj1n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
